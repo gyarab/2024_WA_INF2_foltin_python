@@ -1,1 +1,4 @@
-# 2024_WA_INF2_foltin_python
+# Django pískoviště
+
+
+Repozitář pro práci v hodině v hodinách WA, skupina INF2
