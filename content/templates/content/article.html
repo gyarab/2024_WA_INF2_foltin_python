@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block main %}
-    <img src="{{ article.image }}" alt="{{ article.title }}">
     <p>{{ article.perex }}</p>
-    <p>{{ article.author }}</p>
+    <p>{{ article.author.name }} {{ article.author.email }}</p>
+    <p>{{ article.content }}</p>
 {% endblock %}

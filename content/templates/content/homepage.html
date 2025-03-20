@@ -8,7 +8,8 @@
 
 {% block main %}
     {% for article in articles %}
-        <a href="/article/{{ forloop.counter0 }}"><h2>{{ article.title }}</h2></a>
+        <a href="/article/{{ article.id }}"><h2>{{ article.title }}</h2></a>
+        <p>{{ article.date }}</p>
         <p>{{ article.perex }}</p>
     {% endfor %}
 {% endblock %}
